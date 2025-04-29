@@ -1,0 +1,153 @@
+h1 {
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+body {
+  background-color: rgba(79, 190, 255, 0.664);
+}
+input[type="text"] {
+  background-color: rgba(37, 19, 41, 0.664);
+  color: white;
+  border: none;
+  border-bottom: 1px solid white;
+}
+.uiverse-button {
+    background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .uiverse-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  .uiverse-select {
+    appearance: none;
+    background-color: #f0f4f8;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #333;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .uiverse-select:hover {
+    border-color: #4b6cb7;
+  }
+  
+  .uiverse-select:focus {
+    border-color: #182848;
+    box-shadow: 0 0 0 2px rgba(75, 108, 183, 0.2);
+  }
+  .uiverse-input {
+    width: 100%;
+    max-width: 500px;
+    padding: 12px 16px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    outline: none;
+    transition: 0.3s ease;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .uiverse-input:focus {
+    border-color: #4b6cb7;
+    box-shadow: 0 0 0 2px rgba(75, 108, 183, 0.2);
+  }
+  .delete-btn {
+    background: #e74c3c;
+    margin-left: 10px;
+  }
+  
+  .delete-btn:hover {
+    background: #c0392b;
+  }
+  .result-box {
+    border: 2px solid #4b6cb7;
+    border-radius: 12px;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #f9f9ff;
+    font-size: 16px;
+    color: #333;
+    word-break: break-all;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    max-width: 600px;
+  }
+p {
+    color: rgb(31, 40, 44);
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-top: 18px;
+}
+/* قاعدة أساسية تجعل العرض يعتمد على حجم الجهاز */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* تجعل النص والعناصر تتجاوب مع حجم الشاشة */
+  html {
+    font-size: 16px;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 10px;
+  }
+  
+  /* حاوية رئيسية */
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 15px;
+  }
+  
+  /* مثال لبطاقة */
+  .card {
+    width: 100%;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  /* شبكة لعرض العناصر */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  /* صور تتأقلم مع العرض */
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  /* استجابة للهواتف الصغيرة */
+  @media (max-width: 600px) {
+    html {
+      font-size: 14px;
+    }
+  }
+  
